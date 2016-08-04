@@ -192,6 +192,7 @@
 
     .card.hovercard {
         position: relative;
+        box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.2);
         padding-top: 0;
         overflow: hidden;
         text-align: center;
@@ -199,27 +200,27 @@
     }
 
     .card.hovercard .cardheader {
-        /* background: url("http://lorempixel.com/850/280/nature/4/"); */
-        background-color: #f00;
+         background: url("banner.jpg"); 
+        /*background-color: #f00;*/
         background-size: cover;
         height: 135px;
     }
 
     .card.hovercard .avatar {
         position: relative;
-        top: -50px;
+        top: -70px;
         margin-bottom: -50px;
     }
 
     .card.hovercard .avatar img {
-        width: 100px;
-        height: 100px;
-        max-width: 100px;
-        max-height: 100px;
+        width: 150px;
+        height: 150px;
+        max-width: 150px;
+        max-height: 150px;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         border-radius: 50%;
-        border: 5px solid rgba(255,255,255,0.5);
+        border: 10px solid rgba(255,255,255,0.2);
     }
 
     .card.hovercard .info {
@@ -248,12 +249,16 @@
     }
 
     .btn{ border-radius: 50%; width:32px; height:32px; line-height:18px;  }
-    .center{
-    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.2);
-    display: table;
-    float: none;
-    margin: 0 auto;
-    top: 40%;
+    .center
+    {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        left: 0;
+        margin: -173px auto 0;
+        position: absolute;
+        right: 0;
+        top: 50%;
     }
     </style>
 </head>
@@ -264,7 +269,6 @@
 
                 <div class="card hovercard">
                     <div class="cardheader">
-
                     </div>
                     <div class="avatar">
                         <img alt="" src="https://volunteers.joomla.org/images/volunteers/thumbs/d083_ronak-parmar_250x250.jpg">
